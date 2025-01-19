@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 <div align="center">
     <img src="assets/amigosecreto.png" alt="amigo secreto">
@@ -35,3 +36,6 @@ Você pode acessar o projeto clicando [aqui](https://amigo-secreto-phi-one.verce
 
 # Autor
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/71734510" width=115><br><sub>Carlos Gabriel Dias</sub>](https://github.com/CarlosGabr) | 
+=======
+<h1 textt-align="center">Amigo Secreto</h1>
+>>>>>>> 1b74de8e0f8a07b09821e9cd6d6d1d8e9b0e4b3a
