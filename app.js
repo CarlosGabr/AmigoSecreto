@@ -8,6 +8,7 @@ let listaAmigos = document.getElementById("listaAmigos");
 // Atualiza a lista de amigos
 function atualizarLista() {
     listaAmigos.innerHTML = "";
+    /// Adiciona cada amigo à lista
     amigos.forEach(function (amigo) {
         listaAmigos.innerHTML += `<li>${amigo}</li>`;
     });
@@ -20,6 +21,7 @@ function adicionarAmigo() {
 
 // Valida a entrada do usuário
 function validaEntrada() {
+    // Verifica se o campo de entrada está vazio
     if (nome.value == "") {
         alert("Digite um nome no campo!");
     } else {
@@ -31,10 +33,12 @@ function validaEntrada() {
 
 // Sortea um amigo da lista
 function sortearAmigo() {
+    // Verifica se há amigos na lista
     if (amigos.length == 0) {
-        alert("Não há amigos para sortear");
+        alert("Não há amigos para sortear!");
         return;
     }
+    // Sorteia um amigo da lista
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
     let mensagem = document.getElementById("resultado");
     mensagem.innerHTML = `O amigo sorteado é: ${amigoSorteado}`;
