@@ -21,7 +21,7 @@ function adicionarAmigo() {
 // Valida a entrada do usuário
 function validaEntrada() {
     if (nome.value == "") {
-        alert("Digite um nome válido");
+        alert("Digite um nome no campo!");
     } else {
         amigos.push(nome.value);
         nome.value = "";
